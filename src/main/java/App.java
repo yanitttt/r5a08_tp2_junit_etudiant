@@ -21,6 +21,7 @@ public class App {
 
         System.out.println(textEditorCourant.getBuffer());
 
+        //decoupe une sous-chaine
         textEditorCourant.setCursor(11);
         textEditorCourant.setMark(16);
 
