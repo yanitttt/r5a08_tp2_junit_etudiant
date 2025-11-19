@@ -93,6 +93,7 @@ public class TextEditor {
             String s = buffer.substr(Math.min(cursor, mark),
                     Math.max(cursor, mark));
             emacsKillring.add(s);
+            System.out.println("emacsKillring.add : " + s);
         } catch (StringIndexOutOfBoundsException e) {
             System.out.println("Warning : region out of bounds");
         }
