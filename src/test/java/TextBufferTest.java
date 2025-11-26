@@ -16,4 +16,5 @@ public class TextBufferTest {
         //Assert
         Assertions.assertEquals(expected_sb,sb);
     }
+
 }
